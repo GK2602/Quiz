@@ -1,0 +1,41 @@
+#quiz-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#options-container {
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+#submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #45a049;
+}
